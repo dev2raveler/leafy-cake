@@ -1,0 +1,31 @@
+:root {
+  --background: #fffbf6;
+  --foreground: #352720;
+  --card: #fffefa;
+  --card-foreground: var(--foreground);
+  --popover: #fffefa;
+  --popover-foreground: var(--foreground);
+  --primary: #8b412f;
+  --primary-foreground: #fffaf6;
+  --muted: #f7eee6;
+  --muted-foreground: #725649;
+  --border: #eadbd0;
+  --input: #d8c4b6;
+  --ring: #b57c65;
+}
+
+.dark {
+  --background: #221a16;
+  --foreground: #f9eee6;
+  --card: #2b211c;
+  --card-foreground: var(--foreground);
+  --popover: #2b211c;
+  --popover-foreground: var(--foreground);
+  --primary: #f1ac92;
+  --primary-foreground: #352017;
+  --muted: #382a23;
+  --muted-foreground: #d3b9aa;
+  --border: #4c392e;
+  --input: #6f5245;
+  --ring: #d18e75;
+}
