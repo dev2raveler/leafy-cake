@@ -40,12 +40,18 @@ export default function RootLayout({
         <ThemeProvider>
           <TooltipProvider>
             <header className="border-b bg-card">
-              <div className="mx-auto flex h-14 max-w-5xl items-center px-5 sm:px-8">
+              <div className="mx-auto flex h-14 max-w-5xl items-center justify-between gap-4 px-5 sm:px-8">
                 <Link
                   href="/"
                   className="text-lg font-semibold tracking-tight text-primary"
                 >
                   리피 케이크
+                </Link>
+                <Link
+                  href="/store/orders"
+                  className="inline-flex min-h-11 items-center text-sm font-medium text-muted-foreground hover:text-primary hover:underline"
+                >
+                  매장 주문 관리
                 </Link>
               </div>
             </header>
